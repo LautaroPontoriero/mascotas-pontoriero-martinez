@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+main{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction:column;
+    align-content: center;
+}
+header{
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+fieldset{
+    justify-content:center;
+    display:inline-block;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 500px){
+    *{
+    background-color:rgb(168, 98, 98);
+
+    
+    }
+    body{
+        background-color: rgb(151, 16, 117);
+       
+    }
+    main{
+        font-size: 0.7rem;
+        width: auto;
+        height: auto;
+    }
+        h1{
+            font-size: 1.3rem;
+            color: rgb(71, 18, 107);
+        }
+        h2{
+            font-size: 1.1rem;
+            color: rgb(112, 68, 37);
+        }
+        h3{
+            font-size: 1rem;
+            color: rgb(66, 37, 85);
+        }
+    
+        iframe{
+            width: auto;
+            height: auto;
+        }
+    .contenedor{
+        
+        background-color: aquamarine;
+            width: 30%;
+            height: 40vh;
+            border: solid rgb(0, 255, 85) 3px;
+            margin: 10px auto;
+            display: grid;
+            justify-content: space-around;
+            align-content: center;
+    }
+  
+
+} 
+@media only screen and (min-width: 1000px){
+    *{
+    background-color:black;
+    }
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    main{
+        width: auto;
+        height: auto;
+    }
+        h1{
+            font-size: 1rem;
+            color: rgb(71, 18, 107);
+        }
+       
+        h2{
+            font-size: 1.2rem;
+            color: rgb(112, 68, 37);
+        }
+        h3{
+            font-size: 1rem;
+            color: rgb(66, 37, 85);
+        }
+       
+        iframe{
+            width: 700px;
+            height: 400px;
+        }
+      
+    .contenedor{
+        background-color: aquamarine;
+    }
+}
+h1 {
+    color:#eebee8bd;
+    font-family: 'Palette Mosaic', cursive;
+    line-height: 1.6;
+    text-align: center;
+}
+h2{
+    background-color: rgba(240, 248, 255, 0);
+    color:rgb(189, 179, 155);
+    font-family: 'Merienda', cursive;
+    line-height: 1.5;
+    text-align: center;
+}
+h3{
+    color:rgb(100, 121, 160);
+    text-align: left; 
+    font-family: 'Merienda', cursive;
+    line-height: 1.3;
+}
+h4{
+
+    color: rgb(161, 146, 125);
+    font-family: 'Merienda', cursive;
+    line-height: 1.4;
+}
+h5{
+    color: rgb(197, 184, 186);
+    font-family: 'Merienda', cursive;
+    line-height: 1.6;
+}
+h6{
+    color:rgb(255, 255, 255);
+    font-family: 'Merienda', cursive;
+    font-size: 21.79px;
+    line-height: 3.17;
+}
+p{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:rgb(70, 8, 70);
+    font-family: 'Merienda', cursive;
+    line-height: 2.5;
+    border: double 10px rgb(110, 37, 110);
+    border-radius: 15%;
+    width: auto;
+    display: inline-block;
+    padding: 80px;
+      /* sobre nosotros */
+}
+img{
+    opacity: .4;
+    border: 2px double #949494;
+    padding: 1rem;
+      /* index y galeria de nuestros animales*/
+}
+img:hover{
+    opacity: 1;
+    border: solid 2.5px violet ;
+      /* index y galeria de nuestros animales */
+}
+ul{
+    list-style-type: circle;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    line-height: 1.5;
+      /* todas las paginas */
+}
+li{
+    text-align: center;
+      /* todas las paginas */
+}
+a{
+    color:rgb(178, 187, 204);
+    text-decoration: none;
+    text-align: center;
+}
+.pestaña1{
+    background-color: rgba(216, 184, 184, 0.37);
+    width: 300px;
+    margin: 1rem;
+    padding: 10px;
+    border:rgba(255, 255, 255, 0.233);
+    display: inline-block;
+   /* todas las paginas */
+}
+.pestaña1 li{
+    background-color: darkgrey;
+       /* todas las paginas */
+}
+.pestaña1 :hover{
+    background-color: burlywood;
+    border-radius: 25%;
+    text-decoration: none;
+       /* todas las paginas */
+}
+.pestaña2{
+    background-color: rgba(216, 184, 184, 0.37);
+    width: 300px;
+    margin: 1rem;
+    padding: 10px;
+    border:rgba(255, 255, 255, 0.233);
+    display: inline-block;
+       /* todas las paginas */
+}
+.pestaña2 li{
+    background-color: darkgrey;
+       /* todas las paginas */
+}
+.pestaña2 :hover{
+    background-color: burlywood;
+    border-radius: 25%;
+       /* todas las paginas */
+}
+.pestaña3{
+    background-color: rgba(216, 184, 184, 0.37);
+    width: 300px;
+    margin: 1rem;
+    padding: 10px;
+    border:rgba(255, 255, 255, 0.233);
+    display: inline-block;
+       /* todas las paginas */
+}
+.pestaña3 li{
+    background-color: darkgrey;
+       /* todas las paginas */
+}
+.pestaña3 :hover{
+    background-color: burlywood;
+    border-radius: 25%;
+       /* todas las paginas */
+}
+.pestaña4{
+    background-color: rgba(216, 184, 184, 0.37);
+    width: 300px;
+    margin: 1rem;
+    padding: 10px;
+    border:rgba(255, 255, 255, 0.233);
+    display: inline-block;
+       /* todas las paginas */
+}
+.pestaña4 li{
+    background-color: darkgrey;
+       /* todas las paginas */
+}
+.pestaña4 :hover{
+    background-color: burlywood;
+    border-radius: 25%;
+       /* todas las paginas */
+}
+.pestaña5{
+    background-color: rgba(216, 184, 184, 0.37);
+    width: 300px;
+    margin: 1rem;
+    padding: 10px;
+    border:rgba(255, 255, 255, 0.233);
+    display: inline-block;
+       /* todas las paginas */
+}
+.pestaña5 li{
+    background-color: darkgrey;
+       /* todas las paginas */
+}
+.pestaña5 :hover{
+    background-color: burlywood;
+    border-radius: 25%;
+       /* todas las paginas */ 
+}
+label{
+    color: white;
+    /* formulario de adopcion */ 
+}
+legend{
+    color: white;
+     /* formulario de adopcion */ 
+}
+div{
+    color: white;
+    text-align: center;
+}
+option{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+     /* formulario de adopcion */ 
+}
+input{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+     /* formulario de adopcion */ 
+}
+select{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+textarea{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+     /* formulario de adopcion */ 
+}
+.contenedor{
+    background-color: gray;
+    width: 90%;
+    height: auto;
+    border: solid blue 3px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "ab ab c"
+    "d ef ef";
+    justify-content: space-around;
+    align-content: center;
+}
+.hijo{
+    background-color: chocolate;
+    border: 2px solid yellow;
+
+}
+.ab{
+    background-color: coral;
+    grid-area: ab;
+}
+.c{
+    background-color: aqua;
+    grid-area: c;
+}
+.d{
+    background-color: violet;
+    grid-area: d;
+}
+.ef{
+    background-color: orange;
+    grid-area: ef;
+}
