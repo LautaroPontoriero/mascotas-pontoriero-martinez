@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(65, 65, 65);
     margin: 20px;
     text-align: center;
     flex-direction: row;
@@ -13,10 +14,12 @@ body{
     align-items: baseline;
 }
 main{
+    background-color: rgb(65, 65, 65);
     text-align: center;
 }
 header{
-    text-align: center;
+    text-
+    background-color: rgb(65, 65, 65);align: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -239,103 +242,12 @@ li{
       /* todas las paginas */
 }
 a{
-    color:rgb(178, 187, 204);
+    color:rgba(221, 195, 122, 0.795);
     text-decoration: none;
     text-align: center;
 }
-.pestaña1{
-    background-color: rgba(216, 184, 184, 0.37);
-    width: 300px;
-    margin: 1rem;
-    padding: 10px;
-    border:rgba(255, 255, 255, 0.233);
-    display: inline-block;
-   /* todas las paginas */
-}
-.pestaña1 li{
-    background-color: darkgrey;
-       /* todas las paginas */
-}
-.pestaña1 :hover{
-    background-color: burlywood;
-    border-radius: 25%;
-    text-decoration: none;
-       /* todas las paginas */
-}
-.pestaña2{
-    background-color: rgba(216, 184, 184, 0.37);
-    width: 300px;
-    margin: 1rem;
-    padding: 10px;
-    border:rgba(255, 255, 255, 0.233);
-    display: inline-block;
-       /* todas las paginas */
-}
-.pestaña2 li{
-    background-color: darkgrey;
-       /* todas las paginas */
-}
-.pestaña2 :hover{
-    background-color: burlywood;
-    border-radius: 25%;
-       /* todas las paginas */
-}
-.pestaña3{
-    background-color: rgba(216, 184, 184, 0.37);
-    width: 300px;
-    margin: 1rem;
-    padding: 10px;
-    border:rgba(255, 255, 255, 0.233);
-    display: inline-block;
-       /* todas las paginas */
-}
-.pestaña3 li{
-    background-color: darkgrey;
-       /* todas las paginas */
-}
-.pestaña3 :hover{
-    background-color: burlywood;
-    border-radius: 25%;
-       /* todas las paginas */
-}
-.pestaña4{
-    background-color: rgba(216, 184, 184, 0.37);
-    width: 300px;
-    margin: 1rem;
-    padding: 10px;
-    border:rgba(255, 255, 255, 0.233);
-    display: inline-block;
-       /* todas las paginas */
-}
-.pestaña4 li{
-    background-color: darkgrey;
-       /* todas las paginas */
-}
-.pestaña4 :hover{
-    background-color: burlywood;
-    border-radius: 25%;
-       /* todas las paginas */
-}
-.pestaña5{
-    background-color: rgba(216, 184, 184, 0.37);
-    width: 300px;
-    margin: 1rem;
-    padding: 10px;
-    border:rgba(255, 255, 255, 0.233);
-    display: inline-block;
-       /* todas las paginas */
-}
-.pestaña5 li{
-    background-color: darkgrey;
-       /* todas las paginas */
-}
-.pestaña5 :hover{
-    background-color: burlywood;
-    border-radius: 25%;
-       /* todas las paginas */ 
-}
 label{
-    color: white;
+    color: rgb(177, 174, 174);
     /* formulario de adopcion */ 
 }
 legend{
