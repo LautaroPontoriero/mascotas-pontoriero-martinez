@@ -14,12 +14,11 @@ body{
     align-items: baseline;
 }
 main{
-    background-color: rgb(65, 65, 65);
+    
     text-align: center;
 }
 header{
-    text-
-    background-color: rgb(65, 65, 65);align: center;
+    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
