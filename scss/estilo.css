@@ -388,13 +388,13 @@ body .container h1:hover span {
 
 @media only screen and (min-width: 1000px) {
   * {
-    background-color: #363636;
+    background-color: #414141;
   }
   body {
-    background-color: #363636;
+    background-color: #414141;
   }
   body .container {
-    background-color: #363636;
+    background-color: #414141;
     text-align: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -438,7 +438,7 @@ body .container h1:hover span {
     /* todas las paginas */
   }
   body .container a {
-    color: #41403d;
+    color: #414141;
     text-decoration: none;
     text-align: center;
   }
@@ -499,7 +499,7 @@ h1:hover span {
 }
 
 h2 {
-  background-color: rgba(240, 248, 255, 0.144);
+  background-color: #414141;
   color: #535353;
   font-family: 'Merienda', cursive;
   line-height: 1.5;
@@ -555,18 +555,6 @@ h6 {
   border: 2px double #949494;
   padding: 1rem;
   text-align: center;
-}
-
-img {
-  opacity: .4;
-  padding: 1rem;
-  /* index y galeria de nuestros animales*/
-}
-
-img:hover {
-  opacity: 1;
-  border: solid 2.5px violet;
-  /* index y galeria de nuestros animales */
 }
 
 ul {
@@ -692,5 +680,17 @@ textarea {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: ef;
+}
+
+img {
+  opacity: .4;
+  padding: 1rem;
+  /* index y galeria de nuestros animales*/
+}
+
+img:hover {
+  opacity: 1;
+  border: solid 2.5px violet;
+  /* index y galeria de nuestros animales */
 }
 /*# sourceMappingURL=estilo.css.map */

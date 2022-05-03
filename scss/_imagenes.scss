@@ -1,0 +1,11 @@
+img {
+    opacity: .4;
+    padding: 1rem;
+    /* index y galeria de nuestros animales*/ 
+
+       &:hover {
+           opacity: 1;
+           border: solid 2.5px violet;
+           /* index y galeria de nuestros animales */ 
+         }
+}

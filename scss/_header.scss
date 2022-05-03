@@ -1,0 +1,213 @@
+body {
+    background-color: $bg;
+    margin: 20px;
+  h1 {
+      color: $titulos;
+      font-family: 'Palette Mosaic', cursive;
+      line-height: 1.6;
+      text-align: center; 
+  } 
+  main {
+    text-align: center;
+    div {
+        color: white;
+        text-align: center; 
+    }
+    fieldset {
+        justify-content: center;
+        display: inline-block; 
+        div {
+            color: white;
+            text-align: center; 
+        }
+        textarea {
+            background: #eeaeca;
+            background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+            /* formulario de adopcion */ 
+        }
+
+    }         
+    .texto {
+        background: #eeaeca;
+        background: radial-gradient(circle, #eeaeca #94bbe9 100%);
+        color: #460846;
+        font-family: 'Merienda', cursive;
+        line-height: 2.5;
+        border: double 10px #6e256e;
+        border-radius: 15%;
+        width: auto;
+        display: inline-block;
+        padding: 80px;
+        text-align: center;
+        /* sobre nosotros */ 
+    }
+    h2 {
+        background-color: rgba(240, 248, 255, 0.144);
+        color: $subtitulos;
+        font-family: 'Merienda', cursive;
+        line-height: 1.5;
+        text-align: center; 
+    }
+    h3 {
+        color: #6479a0;
+        text-align: left;
+        font-family: 'Merienda', cursive;
+        line-height: 1.3; 
+    }
+    h5 {
+        color: #c5b8ba;
+        font-family: 'Merienda', cursive;
+        line-height: 1.6; 
+    }  
+    ul {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        list-style-type: circle;
+        font-family: 'Merienda', cursive;
+        line-height: 1.5;
+        /* todas las paginas */ 
+    }   
+     .contenedor {
+      background-color: aquamarine;
+      width: 30%;
+      height: 40vh;
+      border: solid #00ff55 3px;
+      margin: 10px auto;
+      display: grid;
+      justify-content: space-around;
+      align-content: center; 
+    }               
+ }
+  header {
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline; 
+    div {
+        color: white;
+        text-align: center; 
+    }
+    ul {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        list-style-type: circle;
+        font-family: 'Merienda', cursive;
+        line-height: 1.5;
+        /* todas las paginas */ 
+    }
+    li {
+        text-align: center;
+        /* todas las paginas */ 
+    }      
+    a {
+        color: #41403d;
+        text-decoration: none;
+        text-align: center; 
+    }     
+    h1 {
+        color: $titulos;
+        font-family: 'Palette Mosaic', cursive;
+        line-height: 1.6;
+        text-align: center; 
+    
+         & span {
+             transition: all 2s linear; 
+         }
+         &:hover span {
+             color: #ee87d8;
+             text-shadow: 0 0 10px white, 0 0 20px, 0 0 40px; 
+         }
+      } 
+} 
+  fieldset {
+    justify-content: center;
+    display: inline-block; 
+}
+  footer{
+    div {
+        color: white;
+        text-align: center; 
+    }
+    a {
+            color: #41403d;
+            text-decoration: none;
+            text-align: center; 
+        }
+    h4 {
+            color: #a1927d;
+            font-family: 'Merienda', cursive;
+            line-height: 1.4; 
+        }
+            
+}
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around; 
+    div {
+        color: white;
+        text-align: center; 
+    }
+    img {
+        opacity: .4;
+        padding: 1rem;
+        /* index y galeria de nuestros animales*/ 
+    }
+}
+.container{
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline; 
+    div {
+        color: white;
+        text-align: center; 
+    }
+    ul {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        list-style-type: circle;
+        font-family: 'Merienda', cursive;
+        line-height: 1.5;
+        /* todas las paginas */ 
+    }
+    li {
+        text-align: center;
+        /* todas las paginas */ 
+    }      
+    a {
+        color: #41403d;
+        text-decoration: none;
+        text-align: center; 
+    }     
+    h1 {
+        color: $titulos;
+        font-family: 'Palette Mosaic', cursive;
+        line-height: 1.6;
+        text-align: center; 
+    
+        & span {
+            transition: all 2s linear; 
+        }
+        &:hover span {
+            color: #ee87d8;
+            text-shadow: 0 0 10px white, 0 0 20px, 0 0 40px; 
+        } 
+  }
+}
+}
