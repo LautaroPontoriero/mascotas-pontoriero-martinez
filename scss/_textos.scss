@@ -69,6 +69,11 @@
       text-align: center;
       align-content: center; 
     } 
+    a {
+      color: #926e00;
+      text-decoration: none;
+      text-align: center; 
+  }
     }
 @media only screen and (min-width: 1000px) {
     * {
@@ -122,6 +127,11 @@
                 text-shadow: 0 0 10px white, 0 0 20px, 0 0 40px; 
             } 
       }
+      a {
+        color: #926e00;
+        text-decoration: none;
+        text-align: center; 
+    }
     }
     main {
       width: auto;
@@ -231,7 +241,7 @@
     /* todas las paginas */ 
 }
   a {
-    color: #41403d;
+    color: #926e00;
     text-decoration: none;
     text-align: center; 
 }

@@ -62,7 +62,7 @@ body main .texto {
 
 body main h2 {
   background-color: rgba(240, 248, 255, 0.144);
-  color: #535353;
+  color: #8a7000;
   font-family: 'Merienda', cursive;
   line-height: 1.5;
   text-align: center;
@@ -165,7 +165,7 @@ body header li {
 }
 
 body header a {
-  color: #41403d;
+  color: #a87e00;
   text-decoration: none;
   text-align: center;
 }
@@ -200,7 +200,7 @@ body footer div {
 }
 
 body footer a {
-  color: #41403d;
+  color: #b18500;
   text-decoration: none;
   text-align: center;
 }
@@ -282,7 +282,7 @@ body .container li {
 }
 
 body .container a {
-  color: #41403d;
+  color: #926e00;
   text-decoration: none;
   text-align: center;
 }
@@ -384,6 +384,11 @@ body .container h1:hover span {
     -ms-flex-line-pack: center;
         align-content: center;
   }
+  a {
+    color: #926e00;
+    text-decoration: none;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -456,6 +461,11 @@ body .container h1:hover span {
     color: #ee87d8;
     text-shadow: 0 0 10px white, 0 0 20px, 0 0 40px;
   }
+  body .container a {
+    color: #926e00;
+    text-decoration: none;
+    text-align: center;
+  }
   body main {
     width: auto;
     height: auto;
@@ -500,7 +510,7 @@ h1:hover span {
 
 h2 {
   background-color: #414141;
-  color: #535353;
+  color: #8a7000;
   font-family: 'Merienda', cursive;
   line-height: 1.5;
   text-align: center;
@@ -585,7 +595,7 @@ li {
 }
 
 a {
-  color: #41403d;
+  color: #926e00;
   text-decoration: none;
   text-align: center;
 }
@@ -646,7 +656,6 @@ textarea {
   -ms-flex-line-pack: center;
       align-content: center;
 }
-
 
 .hijo {
   background-color: chocolate;
