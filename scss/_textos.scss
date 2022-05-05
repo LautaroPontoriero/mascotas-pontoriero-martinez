@@ -203,32 +203,11 @@ $bordes: #3a1c3ad0;
   .texto {
     @include textos ($bgfondotextos1)
 
-    /*
-    background: #eeaeca;
-    background: radial-gradient(circle, #945771af 0%, #94bce96c 100%);
-    color: #460846;
-    font-family: 'Merienda', cursive;
-    line-height: 2.5;
-    border: double 10px #6e256e;
-    border-radius: 15%;
-    width: auto;
-    display: inline-block;
-    padding: 80px;
-    text-align: center;
-     sobre nosotros */ 
+    /*sobre nosotros */ 
 }
   .clase-parrafo {
     @include textos ($bgfondotextos2)
-    /*
-    color: white;
-    font-family: 'Merienda', cursive;
-    font-size: 21.79px;
-    line-height: 3.17;
-    border: 2px double #949494;
-    padding: 1rem;
-    text-align: center; 
-    */
-}
+  }
   ul {
     text-align: center;
     display: flex;
