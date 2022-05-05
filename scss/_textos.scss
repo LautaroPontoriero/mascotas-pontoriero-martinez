@@ -1,3 +1,21 @@
+$bgfondotextos1: #533c46;
+$bgfondotextos2: #5f5f5f9d;
+$textos: #8d0505;
+$bordes: #3a1c3ad0;    
+
+@mixin textos($bgcuadros){
+    background: radial-gradient(circle, #945771af 0%, #94bce96c 100%);
+    background-color: $bgfondotextos1;
+    color: $textos;
+    font-family: 'Merienda', cursive;
+    line-height: 2.5;
+    border: double 10px $bordes;
+    border-radius: 5%;
+    width: auto;
+    display: inline-block;
+    padding: 80px;
+    text-align: center;
+}
 @media only screen and (max-width: 500px) {
     * {
       background-color: #a86262; 
@@ -37,30 +55,11 @@
       align-content: center; 
     }
     .texto {
-      background: #eeaeca;
-      background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
-      color: #460846;
-      font-family: 'Merienda', cursive;
-      line-height: 2.5;
-      border: double 10px #6e256e;
-      border-radius: 15%;
-      width: auto;
-      display: inline-block;
-      padding: 80px;
-      text-align: center;
+      @include textos ($bgfondotextos1)
       /* sobre nosotros */ 
     }
     .clase-parrafo {
-      color: white;
-      font-family: 'Merienda', cursive;
-      font-size: 21.79px;
-      line-height: 3.17;
-      border: 2px double #949494;
-      padding: 1rem;
-      text-align: center;
-      display: inline-block;
-      justify-content: center;
-      align-content: center; 
+      @include textos ($bgfondotextos2)
     }
     img {
       width: 60%;
@@ -202,8 +201,11 @@
     line-height: 3.17; 
 } 
   .texto {
+    @include textos ($bgfondotextos1)
+
+    /*
     background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    background: radial-gradient(circle, #945771af 0%, #94bce96c 100%);
     color: #460846;
     font-family: 'Merienda', cursive;
     line-height: 2.5;
@@ -213,9 +215,11 @@
     display: inline-block;
     padding: 80px;
     text-align: center;
-    /* sobre nosotros */ 
+     sobre nosotros */ 
 }
   .clase-parrafo {
+    @include textos ($bgfondotextos2)
+    /*
     color: white;
     font-family: 'Merienda', cursive;
     font-size: 21.79px;
@@ -223,6 +227,7 @@
     border: 2px double #949494;
     padding: 1rem;
     text-align: center; 
+    */
 }
   ul {
     text-align: center;

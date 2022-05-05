@@ -156,13 +156,13 @@ h6 {
   line-height: 3.17; }
 
 .texto {
-  background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
-  color: #460846;
+  background: radial-gradient(circle, #945771af 0%, #94bce96c 100%);
+  background-color: #533c46;
+  color: #8d0505;
   font-family: 'Merienda', cursive;
   line-height: 2.5;
-  border: double 10px #6e256e;
-  border-radius: 15%;
+  border: double 10px #3a1c3ad0;
+  border-radius: 5%;
   width: auto;
   display: inline-block;
   padding: 80px;
@@ -170,12 +170,16 @@ h6 {
   /* sobre nosotros */ }
 
 .clase-parrafo {
-  color: white;
+  background: radial-gradient(circle, #945771af 0%, #94bce96c 100%);
+  background-color: #533c46;
+  color: #8d0505;
   font-family: 'Merienda', cursive;
-  font-size: 21.79px;
-  line-height: 3.17;
-  border: 2px double #949494;
-  padding: 1rem;
+  line-height: 2.5;
+  border: double 10px #3a1c3ad0;
+  border-radius: 5%;
+  width: auto;
+  display: inline-block;
+  padding: 80px;
   text-align: center; }
 
 img {
@@ -205,7 +209,7 @@ li {
   /* todas las paginas */ }
 
 a {
-  color: #41403d;
+  color: #b68800;
   text-decoration: none;
   text-align: center; }
 
